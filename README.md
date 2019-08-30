@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/v-jonluo/regression/_apis/build/status/rosierui.pipelines-java?branchName=master)](https://dev.azure.com/v-jonluo/regression/_build/latest?definitionId=1&branchName=master)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
