@@ -16,7 +16,6 @@ strategy:
       imageName: "vs2017-win2016"
   maxParallel: 3
 
-strategy:
   matrix:
     jdk10:
       jdk_version: "1.10"
