@@ -9,6 +9,12 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+parameters:
+  - {name: checkout_dir, type: string, default: "/home/moonwave/workspace"}
+  - {name: workspace_name, type: string, default: "ws_mw" }
+  - {name: use_workspace_name, type: boolean, default: true}
+  - {name: remove_workspace, type: boolean, default: false}
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
